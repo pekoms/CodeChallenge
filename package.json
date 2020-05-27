@@ -1,0 +1,21 @@
+{
+    "name": "codechallenge",
+    "version": "1.0.0",
+    "description": "CodeChallenge for an interview",
+    "main": "app.js",
+    "scripts": {
+        "start": "npm start",
+
+        "test": "npm test"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/pekoms/CodeChallenge.git"
+    },
+    "author": "Alejandro Pineda",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/pekoms/CodeChallenge/issues"
+    },
+    "homepage": "https://github.com/pekoms/CodeChallenge#readme"
+}
