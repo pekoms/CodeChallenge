@@ -4,9 +4,9 @@
     "description": "CodeChallenge for an interview",
     "main": "app.js",
     "scripts": {
-        "start": "npm start",
-
-        "test": "npm test"
+        "start": "node ./src/app.js",
+        "test": "mocha",
+        "test-watch": "mocha --watch --reporter min"
     },
     "repository": {
         "type": "git",
@@ -17,5 +17,8 @@
     "bugs": {
         "url": "https://github.com/pekoms/CodeChallenge/issues"
     },
-    "homepage": "https://github.com/pekoms/CodeChallenge#readme"
+    "homepage": "https://github.com/pekoms/CodeChallenge#readme",
+    "dependencies": {
+        "mocha": "^7.2.0"
+    }
 }
