@@ -5,8 +5,7 @@
     "main": "app.js",
     "scripts": {
         "start": "node ./src/app.js",
-        "test": "mocha",
-        "test-watch": "mocha --watch --reporter min"
+        "test": "mocha ./src/test/test.js"
     },
     "repository": {
         "type": "git",
@@ -18,7 +17,9 @@
         "url": "https://github.com/pekoms/CodeChallenge/issues"
     },
     "homepage": "https://github.com/pekoms/CodeChallenge#readme",
-    "dependencies": {
+    "dependencies": {},
+    "devDependencies": {
+        "chai": "^4.2.0",
         "mocha": "^7.2.0"
     }
 }
