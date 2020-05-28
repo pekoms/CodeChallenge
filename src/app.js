@@ -24,4 +24,15 @@ reader.on('line', function(line) {
 
 });
 
-//TODO Play();
+//TODO --COMMENTS--Executes main proccess
+function play() {
+    reader.on('close', function(line) {
+        main.execute(lines.join('\n'));
+
+    });
+
+
+
+}
+
+play();
