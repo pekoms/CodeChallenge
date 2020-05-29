@@ -8,6 +8,8 @@ function execute(lines) {
     let mars = board.createMars(lines);
     let robots = board.createRobots(lines);
 
+    console.log(mars);
+
     //TODO: Function for execute movemente
 
     //TODO: Function for display output

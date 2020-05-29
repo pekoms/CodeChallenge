@@ -3,7 +3,7 @@
 
 //TODO --COMMENTS--
 function createMars(lines) {
-    const input = lines.trim().split('/n');
+    const input = lines.trim().split('\n');
 
     let coordinates = input[0].trim().split(' ').map(number => parseInt(number, 10));;
     let mars = {
@@ -20,7 +20,7 @@ function createMars(lines) {
 
 //TODO --COMMENTS--
 function createRobots(lines) {
-    const input = lines.trim().split('/n');
+    const input = lines.trim().split('\n');
 
     const robots = []
 
