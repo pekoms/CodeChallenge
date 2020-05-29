@@ -1,7 +1,7 @@
-//Imports
-
-
-//TODO --COMMENTS--
+/**
+ * Return mars object
+ * @param {String} lines 
+ */
 function createMars(lines) {
     const input = lines.trim().split('\n');
 
@@ -18,7 +18,10 @@ function createMars(lines) {
     return mars;
 }
 
-//TODO --COMMENTS--
+/**
+ * Return robots object
+ * @param {String} lines 
+ */
 function createRobots(lines) {
     const input = lines.trim().split('\n');
 

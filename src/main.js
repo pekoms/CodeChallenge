@@ -1,18 +1,26 @@
 //Imports
 const board = require('./board');
+const movement = require('./move');
+const display = require('./display');
 
-//TODO execute();
 
+/**
+ * Main program function
+ * @param {String} lines 
+ */
 function execute(lines) {
 
+    //Get Objects
     let mars = board.createMars(lines);
     let robots = board.createRobots(lines);
 
-    console.log(mars);
+    //Move them
+    movement.executeMovement(mars, robots);
 
-    //TODO: Function for execute movemente
+    //Display robots
 
-    //TODO: Function for display output
+    display.showDisplay(robots)
+
 }
 
 
